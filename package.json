@@ -1,0 +1,27 @@
+{
+  "name": "graphql-monaco-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "sh ./buildWorkers.sh && parcel index.html --open",
+    "build": "sh ./buildWorkers.sh && parcel build index.html"
+  },
+  "dependencies": {
+    "graphql": "14.5.8",
+    "graphql-config": "3.0.0-alpha.13",
+    "graphql-language-service-interface": "2.3.1",
+    "graphql-language-service-utils": "2.3.3",
+    "monaco-editor": "0.18.1",
+    "monaco-languages": "1.8.0",
+    "prettier": "1.19.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "parcel-bundler": "^1.6.1"
+  },
+  "keywords": [
+    "monaco",
+    "graphql"
+  ]
+}
